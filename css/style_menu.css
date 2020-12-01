@@ -8,12 +8,18 @@ body {
     height:100%;
 }
 h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
+    padding: 0.75rem;
 }
 
 h2{
     font-size: 1.5rem;
     text-align: center;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -27,6 +33,11 @@ a {
     border-radius: .5rem;
     text-align: center;
     align-items: flex-end;
+}
+
+.conversa {
+    width: 80%;
+    align-items: center;
 }
 
 .menu {
@@ -62,10 +73,8 @@ img {
     border-bottom:.15rem solid black;
 }
 
-
-.FAQ{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 20%;
+li{
+    font-size: 2rem;
+    padding: 0.75rem;
+    text-align: center;
 }
