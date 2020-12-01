@@ -22,7 +22,7 @@ h2{
     flex-direction: column;
 }
 
-a {
+.clicavel {
     display: block;
     margin-right: -2rem;
     border: .15rem solid black;
