@@ -73,8 +73,20 @@ img {
     border-bottom:.15rem solid black;
 }
 
+.abacurta{
+    height: 20%;
+}
+
 li{
     font-size: 2rem;
     padding: 0.75rem;
     text-align: center;
+}
+
+.setabaixo{
+    position: relative;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-top: 10%;
+    margin-left: 45%;
 }
