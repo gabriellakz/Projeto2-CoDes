@@ -22,22 +22,33 @@ h2{
     flex-direction: column;
 }
 
+.fotouser{
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+}
+
 .clicavel {
-    display: block;
-    margin-right: -2rem;
     border: .15rem solid black;
+    margin-right: 2rem;
     padding: 1rem;
     font-size: 1rem;
     text-decoration: none;
     width: 25%;
     border-radius: .5rem;
     text-align: center;
-    align-items: flex-end;
+    align-self: flex-end;
 }
 
 .conversa {
+    border: .15rem solid black;
+    padding: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    text-align: center;
     width: 80%;
-    align-items: center;
+    align-self: center;
 }
 
 .menu {
@@ -73,8 +84,18 @@ img {
     border-bottom:.15rem solid black;
 }
 
+.abacurta_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20%;
+    border-bottom:.15rem solid black;
+}
+
 .abacurta{
     height: 20%;
+    display: flex;
+    flex-direction: column;
 }
 
 li{
