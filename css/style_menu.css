@@ -64,6 +64,34 @@ h2{
     width: 100%;
 }
 
+h3{
+    font-size: 5.5rem;
+    justify-self: center;
+    align-self: center;
+    font-family: "Hind", sans-serif;
+}
+
+.indexclicavel{
+    justify-self: center;
+    align-self: center;
+    border: .15rem solid black;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 4.5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    text-align: center;
+    width: 80%;
+}
+
+.index{
+    background-color: #3DA5FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
 header {
     position: relative;
     display: flex;
